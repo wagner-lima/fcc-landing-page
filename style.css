@@ -1,0 +1,220 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+body {
+  background-color: #ADD8E6;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  position: fixed;
+  background-color: #ADD8E6;
+  width: 1325px;
+  height: 90px;
+  margin-top: -180px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#nav-bar li {
+  display: inline-block;
+}
+
+li {
+  padding: 25px;
+  display: block;
+  font-weight: 950;
+}
+
+.nav-link {
+  color: #FFF;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #175737;
+  transition: color 0.75s;
+}
+
+ul {
+  float: right;
+}
+
+a {
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 180px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+@media (max-width: 650px) {
+  img {
+    margin: 0 auto;
+  }
+}
+
+#games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+input[type="submit"] {
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 2px solid #000;
+  background-color: #175737;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 12px;
+}
+input[type="submit"]:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+h3 {
+  text-align: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 250px;
+}
+
+#how-to-buy {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#basic, #intermediate, #advanced {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.level {
+  background-color: #175737;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.grid {
+  text-align: center;
+}
+
+#games-list {
+  margin-top: 30px;
+  color: white;
+}
+#games-list .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  color: darkgreen;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ol {
+  margin: 15px 0;
+}
+
+button {
+  border: 2px solid #000;
+  margin: 15px 0;
+  background-color: #175737;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ADD8E6;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li {
+  padding: 0 10px;
+}
+
+span {
+  margin-top: 35px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #000;
+}
